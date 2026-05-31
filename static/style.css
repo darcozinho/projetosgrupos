@@ -161,12 +161,16 @@ main { padding: 56px 0 80px; }
 }
 
 .group-card--soon {
-  opacity: .45;
   cursor: default;
   pointer-events: none;
+  border-style: dashed;
 }
 
-.group-card--soon .gc-title { font-style: italic; }
+.group-card--soon .gc-title,
+.group-card--soon .gc-sub {
+  opacity: .4;
+  font-style: italic;
+}
 
 /* ── Footer ── */
 footer {
