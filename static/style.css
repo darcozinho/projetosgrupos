@@ -160,6 +160,14 @@ main { padding: 56px 0 80px; }
   color: var(--gold);
 }
 
+.group-card--soon {
+  opacity: .45;
+  cursor: default;
+  pointer-events: none;
+}
+
+.group-card--soon .gc-title { font-style: italic; }
+
 /* ── Footer ── */
 footer {
   border-top: 1px solid var(--border);
